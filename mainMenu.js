@@ -33,7 +33,6 @@ const template = [
       { role: 'zoomin' },
       { role: 'zoomout' },
       { type: 'separator' },
-      { role: 'toggledevtools' },
       { role: 'togglefullscreen' }
     ]
   },
