@@ -1,0 +1,19 @@
+html {
+	margin-top: 45px;
+	font-family: 'Montserrat', sans-serif !important;
+}
+
+/* transition active state (same for leave and enter) */
+.barba-leave-active,
+.barba-enter-active {
+  transition: opacity 450ms ease;
+}
+
+#license {
+	height: 300px;
+	font: 18px;
+	border: solid black 0.5px;
+	text-align: center;
+	padding: 1em;
+}
+
