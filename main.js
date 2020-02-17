@@ -29,11 +29,11 @@ function createWindow (winWidth,winHeight) {
   })
 
    // and load the html of the app.
-   //if (store.get('setup') === true) {
+   if (store.get('setup') === true) {
     mainWindow.loadFile('intro.html')
-   //} else {
-    //mainWindow.loadFile('intro.html')
-   //}
+   } else {
+    mainWindow.loadFile('intro.html')
+   }
 
   // Emitted when the window is closed.
   mainWindow.on('closed', function () {
