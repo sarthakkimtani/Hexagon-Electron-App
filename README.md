@@ -1,4 +1,4 @@
-<img align="center" src="https://github.com/sarthakkimtani/Hexagon-Electron-App/blob/master/assets/app.png"><br>
+<img align="center" src="https://github.com/sarthakkimtani/Hexagon-Electron-App/blob/master/assets/app-crop.png"><br>
 # Overview
 Hexagon (Beta) , A wallpaper App build for your Desktop with Electron <br>
 
