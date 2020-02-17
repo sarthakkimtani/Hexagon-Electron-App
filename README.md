@@ -11,12 +11,11 @@ Hexagon (Beta) , A wallpaper App build for your Desktop with Electron <br>
 </ul>
   
 # Platforms
-Hexagon is available for Mac, Windows & Linux
+Hexagon is available for Windows & Linux.Support for Mac OS will be available in future updates.
 
 # Download
 <uL>
   <li>Windows <a href="https://github.com/sarthakkimtani/Hexagon-Electron-App/releases">Click Here</a></li>
-  <li>Mac OS <a href="https://github.com/sarthakkimtani/Hexagon-Electron-App/releases">Click Here</a></li>
   <li>Linux <a href="https://github.com/sarthakkimtani/Hexagon-Electron-App/releases">Click Here</a></li>
 </ul>
 
