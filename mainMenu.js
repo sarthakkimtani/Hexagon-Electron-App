@@ -1,9 +1,9 @@
 const {app} = require('electron')
 
-const isMac = process.platform === 'darwin'
+const isLinux = process.platform === 'linux'
 
 const template = [
-  ...(isMac ? [{
+  ...(isLinux ? [{
     label: app.name,
     submenu: [
       { role: 'about' },
@@ -20,7 +20,7 @@ const template = [
   {
     label: 'Options',
     submenu: [
-      isMac ? { role: 'close' } : { role: 'quit' }
+      isLinux ? { role: 'close' } : { role: 'quit' }
     ]
   },
   {
@@ -41,7 +41,7 @@ const template = [
     submenu: [
       { role: 'minimize' },
       { role: 'zoom' },
-      ...(isMac ? [
+      ...(isLinux ? [
         { type: 'separator' },
         { role: 'front' },
         { type: 'separator' },
