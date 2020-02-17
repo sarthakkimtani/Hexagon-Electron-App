@@ -24,7 +24,8 @@ function createWindow (winWidth,winHeight) {
     icon: "./assets/icons/logo-crop.png",
     title: "Hexagon - A Wallpaper App",
     webPreferences: {
-      nodeIntegration: true
+      nodeIntegration: true,
+      devTools: false
     }
   })
 
