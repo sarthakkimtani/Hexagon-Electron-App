@@ -25,7 +25,7 @@ Packages can be installed through npm<br>
 `npm install <PACKAGE_NAME> --save`
 
 # License 
-This project is licensed under the GNU License - see the link <a href="">GNU License</a> for details
+This project is licensed under the GNU License - see the link <a href="https://github.com/sarthakkimtani/Hexagon-Electron-App/blob/master/LICENSE">GNU License</a> for details
 
 # Acknowledgments
 This project is made possible with the help of <a href="https://pixabay.com/api/docs/">Pixabay API</a>
