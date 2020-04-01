@@ -33,7 +33,7 @@ function createWindow (winWidth,winHeight) {
    if (store.get('setup') === true) {
     mainWindow.loadFile('intro.html')
    } else {
-    mainWindow.loadFile('intro.html')
+    mainWindow.loadFile('main.html')
    }
 
   // Emitted when the window is closed.
